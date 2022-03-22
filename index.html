@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CKPG5SYJZ3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CKPG5SYJZ3');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./favicon.png" />
-    <title>Российский Инстграм</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <title>Российский Инстаграм</title>
 </head>
+
 <body>
-    <h1>Россграм - новейшая альтернатива, без потери существующего функционала!</h1>
+    <div id="loader">
+        <img src="./rossgram.svg" alt="" class="load">
+    </div>
+    <section>
+        <div class="img__wrapper">
+            <img class="logo" src="./rossgram.svg" alt="Россграм логотип" title="Россграм логотип вектор">
+        </div>
+        <div class="info__wrapper">
+            <div class="info__block">
+                <p class="p_title">Батюшка "РазГром" всея Руси</p>
+                <p>Как все мы помним, совсем недавно нас отключили от западного мира. Никаких больше Netflix, Instagram,
+                    Facebook, Audi, BMW и прочей ерунды. Никаких больше зарубежных прокладок, кремов и МакДоналдса.</p>
+                <p class="p_title">Да и Бог с ними!</p>
+                <p>Мы быстро адаптируемые под какие бы то ни было услови жизни. И вот, в очередной раз мы доказываем
+                    западу, что жить то без них впрочем то и можно! Даже лучше!</p>
+                <p>Совсем скоро, каждый россиянин сможет пользоваться абсолютно бесприцидентным, новым, свежайшим
+                    продуктом в отрасле социальных сетей!</p>
+                <h2 class="p_title">Россграм - социальная сеть будущего!</h2>
+            </div>
+            <div class="info__block svoikh">
+                <h2>СВОИХ <br/> НЕ БРОСАЕМ</h2>
+                <span class="dazhe">* даже в интернете</span>
+                <ol class="examples">
+                    <li><span>Торговали в сети?</span> - будете продавать и дальше!</li>
+                    <li><span>Вели крутой блог?</span> - будете вести и дальше!</li>
+                    <li><span>Имели миллионник?</span> - удвоитесь!</li>
+                    <li><span>Знакомились?</span> - лучшие парни и девушки будут ваши!</li>
+                    <li><span>Общались?</span> - отныне никто не посмеет читать вашу переписку! В том числе и ЦРУ.</li>
+                    <li><span>VPN?</span> - забудьте эти страшные буквы!</li>
+                    <li><span>Интерфейс?</span> - привычный, интуитивно понятный, вместо прозападных финтифлюшек!</li>
+                    <li><span>Когда?</span> - пилотный запуск планируем уже на 28 марта! Отправь заявку, спеши стать первым пользователем!</li>
+                </ol>
+                <button onclick="window.location.href = `https://rossgram.ru` ">Я буду первым!</button>
+            </div>
+            <div class="info__block foot">
+                <p>В скоропостижных планах команды Россграм - запустить первую версию ПО для Web, Android, iOS уже 28 марта сего года!</p>
+            </div>
+            <img class="iphone" src="./ros13.jpg" alt="rossgram iphone ios" title="rossgram для ios">
+        </div>
+    </section>
+    <script>
+        window.onload = () => {
+            window.loader.remove()
+        }
+    </script>
 </body>
+
 </html>
