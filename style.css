@@ -1,0 +1,34 @@
+  .timer5sec {
+    display: inline-flex;
+    position: relative;
+    width: 18px;
+    height: 18px;
+  }
+
+  .timer5sec__circle {
+    fill: none;
+  }
+  
+  .timer5sec__path-remaining {
+    stroke-width: 2px;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1000ms linear all;
+    fill-rule: nonzero;
+    stroke: tomato;
+  }
+  
+  .timer5sec__label {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+  
+  
+  
